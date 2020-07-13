@@ -51,9 +51,11 @@ Change `index.html` and `script.js` such that whenever you click on the button, 
 should replace the original quote.
 
 # Q7 - Simple list
-The URL `http://dummy.restapiexample.com/api/v1/employees` will return a list of employees as JSON objects. Write code such that when a button is pressed,  axios will load from
-the url `http://dummy.restapiexample.com/api/v1/employees` and present the name, age and salary of each employee in a list. See the sample output in `index.html`
+The URL `https://anapioficeandfire.com/api/books/` will return a list of books as JSON objects. Write code such that when a button is pressed,  axios will load from
+the url `https://anapioficeandfire.com/api/books/` and present the name and number of pages for each book.
 
+## Challenges ##
+* For **each** book,  get the name of all the pov characters in the book and display them in an unordered list.
 
 # Q8 - Random users
 The URL `https://randomuser.me/api/?results=10` will return a list of 10 random users. Your tasks are:
@@ -67,3 +69,6 @@ The URL `https://randomuser.me/api/?results=10` will return a list of 10 random 
    * First name and last name together
    * The city which the user is from
    * The medium-sized image of the user
+
+
+# Q9 - Search
